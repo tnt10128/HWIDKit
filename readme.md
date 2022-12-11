@@ -6,17 +6,17 @@ unique identifiers for user devices.
 
 ![Codefactor code quality](https://img.shields.io/codefactor/grade/github/TNT10128/HWIDKit?style=for-the-badge)
 
-## Features
+## ⭐ Features
 
 - Extremely lightweight - takes up nearly no space
 - Choose what data is used to generate each identifier
 - Cross platform - runs in any environment
 
-## Installation
+## 🛠️ Installation
 
 You can add HWIDKit to your project easily with Gradle or Maven.
 
-### Gradle
+### 🐘 Gradle
 
 Add the following repository to your `build.gradle` file:
 ```
@@ -26,9 +26,9 @@ Then add this dependency:
 ```
 implementation 'com.github.TNT10128:HWIDKit:1.0.0'
 ```
-Replace 1.0.0 with the latest version in the Releases section.
+Replace 1.0.0 with the latest stable version in the Releases section.
 
-### Maven
+### 🪶 Maven
 
 Add the following repository to your `pom.xml` file:
 ```
@@ -47,9 +47,9 @@ Then add this dependency:
 	<version>1.0.0</version>
 </dependency>
 ```
-Replace 1.0.0 with the latest version in the Releases section.
+Replace 1.0.0 with the latest stable version in the Releases section.
 
-## Usage/Examples
+## ℹ️ Usage/Examples
 
 ```java
 package xyz.playneptune.hwidkit.example;
@@ -75,7 +75,7 @@ public class ExampleApp {
 
 }
 ```
-## License
+## ⚖️ License
 
 HWIDKit is licensed under the [LGPL v3.0](https://choosealicense.com/licenses/lgpl-3.0/) license.
 For more details, view the `copying.md` file in this repository.
