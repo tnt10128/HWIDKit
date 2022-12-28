@@ -1,7 +1,7 @@
 
 # 🖥 HWIDKit
 
-HWIDKit is an extremely light library for Java/JVM-based application that allows you to generate
+HWIDKit is an extremely light library for Java/JVM-based applications that allows you to generate
 unique identifiers for user devices.
 
 ![Codefactor code quality](https://img.shields.io/codefactor/grade/github/TNT10128/HWIDKit?style=for-the-badge)
