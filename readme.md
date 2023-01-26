@@ -19,11 +19,13 @@ You can add HWIDKit to your project easily with Gradle or Maven.
 ### 🐘 Gradle
 
 Add the following repository to your `build.gradle` file:
-```
-maven { url 'https://jitpack.io' }
+```groovy
+maven {
+    url 'https://jitpack.io' 
+}
 ```
 Then add this dependency:
-```
+```groovy
 implementation 'com.github.TNT10128:HWIDKit:1.0.0'
 ```
 Replace 1.0.0 with the latest stable version in the Releases section.
@@ -31,20 +33,20 @@ Replace 1.0.0 with the latest stable version in the Releases section.
 ### 🪶 Maven
 
 Add the following repository to your `pom.xml` file:
-```
+```xml
 <repositories>
-	<repository>
-		<id>jitpack.io</id>
-		<url>https://jitpack.io</url>
-	</repository>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
 </repositories>
 ```
 Then add this dependency:
-```
+```xml
 <dependency>
-	<groupId>com.github.TNT10128</groupId>
-	<artifactId>HWIDKit</artifactId>
-	<version>1.0.0</version>
+    <groupId>com.github.TNT10128</groupId>
+    <artifactId>HWIDKit</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 Replace 1.0.0 with the latest stable version in the Releases section.
